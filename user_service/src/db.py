@@ -15,7 +15,7 @@ class User(Base):
     email = Column(String)
     password = Column(String, nullable = False)
 
-Base.metadata.create_all(engine)
+# Base.metadata.create_all(engine)
 Session = sessionmaker(engine)
 
 session = Session()
