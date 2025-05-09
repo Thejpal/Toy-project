@@ -1,0 +1,3 @@
+[submodule "users_service"]
+	path = User-Service
+	url = https://github.com/Thejpal/User-Service.git
